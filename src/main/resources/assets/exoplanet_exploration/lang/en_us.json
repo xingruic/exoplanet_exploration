@@ -1,0 +1,9 @@
+{
+  "item.exoplanet_exploration.launch_pad_wrench": "Launch Pad Wrench",
+  "gui.exoplanet_exploration.launch_pad_player_gui.label_launch_pad": "Launch Pad",
+  "gui.exoplanet_exploration.launch_pad_gui.tp_dimension": "minecraft:the_nether",
+  "block.exoplanet_exploration.launch_pad": "Launch Pad",
+  "gui.exoplanet_exploration.launch_pad_gui.label_dimension": "tp to:",
+  "gui.exoplanet_exploration.launch_pad_gui.tp_coords": "x y z",
+  "gui.exoplanet_exploration.launch_pad_gui.label_launch_pad": "Launch Pad"
+}

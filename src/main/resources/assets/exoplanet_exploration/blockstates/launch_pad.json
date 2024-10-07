@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "exoplanet_exploration:block/launch_pad"
+    }
+  }
+}

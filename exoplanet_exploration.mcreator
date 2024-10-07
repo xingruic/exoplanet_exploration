@@ -1,0 +1,268 @@
+{
+  "mod_elements": [
+    {
+      "name": "LaunchPad",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exoplanet_exploration/loot_table/blocks/launch_pad.json",
+          "src/main/resources/assets/exoplanet_exploration/models/item/launch_pad.json",
+          "src/main/java/io/github/xingruic/exoplanetexploration/block/entity/LaunchPadBlockEntity.java",
+          "src/main/java/io/github/xingruic/exoplanetexploration/block/LaunchPadBlock.java",
+          "src/main/resources/assets/exoplanet_exploration/models/block/launch_pad.json",
+          "src/main/resources/assets/exoplanet_exploration/blockstates/launch_pad.json"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/world/inventory/LaunchPadGUIMenu.java",
+          "src/main/java/io/github/xingruic/exoplanetexploration/client/gui/LaunchPadGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadPlayerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_player_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/network/LaunchPadPlayerGUIButtonMessage.java",
+          "src/main/java/io/github/xingruic/exoplanetexploration/client/gui/LaunchPadPlayerGUIScreen.java",
+          "src/main/java/io/github/xingruic/exoplanetexploration/world/inventory/LaunchPadPlayerGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadPlayerGUIDisplayButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_player_gui_display_button",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/LaunchPadPlayerGUIDisplayButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadWrench",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_wrench",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/item/LaunchPadWrenchItem.java",
+          "src/main/resources/assets/exoplanet_exploration/models/item/launch_pad_wrench.json"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/LaunchPadOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnFalse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_false",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/ReturnFalseProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ReturnTrue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_true",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/ReturnTrueProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ExoplanetOne",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoplanet_one",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exoplanet_exploration/dimension_type/exoplanet_one.json",
+          "src/main/java/io/github/xingruic/exoplanetexploration/world/dimension/ExoplanetOneDimension.java",
+          "src/main/resources/data/exoplanet_exploration/dimension/exoplanet_one.json"
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadOnLevelComplete",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_on_level_complete",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/LaunchPadOnLevelCompleteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScoreboardXYZTemplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoreboard_xyz_template",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/ScoreboardXYZTemplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchPadGUIThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad_gui_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/xingruic/exoplanetexploration/procedures/LaunchPadGUIThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#5"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.exoplanet_exploration.launch_pad_wrench": "Launch Pad Wrench",
+      "gui.exoplanet_exploration.launch_pad_player_gui.label_launch_pad": "Launch Pad",
+      "gui.exoplanet_exploration.launch_pad_gui.tp_dimension": "minecraft:the_nether",
+      "block.exoplanet_exploration.launch_pad": "Launch Pad",
+      "gui.exoplanet_exploration.launch_pad_gui.label_dimension": "tp to:",
+      "gui.exoplanet_exploration.launch_pad_gui.tp_coords": "x y z",
+      "gui.exoplanet_exploration.launch_pad_gui.label_launch_pad": "Launch Pad"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "exoplanet_exploration",
+    "modName": "Exoplanet Exploration",
+    "version": "1.0.0",
+    "author": "xingrui, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "biomeswevegone"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "io.github.xingruic.exoplanetexploration"
+  },
+  "mcreatorVersion": 202400340615
+}

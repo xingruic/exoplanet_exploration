@@ -1,0 +1,297 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 230,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 30,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_launch_pad",
+          "text": {
+            "fixedValue": "Launch Pad"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 121,
+          "y": 11
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 132,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 240,
+          "y": 26
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 276,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "use1Xscale": false,
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "use1Xscale": false,
+          "x": 240,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_arrow.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_launch_button",
+          "image": "launch_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "LaunchPadOnLevelComplete"
+          },
+          "displayCondition": {
+            "name": "LaunchPadPlayerGUIDisplayButton"
+          },
+          "x": 204,
+          "y": 125
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "id": 7,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "id": 8,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 240,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "id": 9,
+          "disablePickup": {
+            "fixedValue": false,
+            "name": "ReturnTrue"
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 276,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "launch_button_pressed.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 125
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

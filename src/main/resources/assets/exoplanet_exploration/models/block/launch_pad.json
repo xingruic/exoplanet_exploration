@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exoplanet_exploration:block/launchpad_side",
+    "up": "exoplanet_exploration:block/launchpad_top",
+    "north": "exoplanet_exploration:block/launchpad_side",
+    "east": "exoplanet_exploration:block/launchpad_side",
+    "south": "exoplanet_exploration:block/launchpad_side",
+    "west": "exoplanet_exploration:block/launchpad_side",
+    "particle": "exoplanet_exploration:block/launchpad_side"
+  },
+  "render_type": "cutout_mipped"
+}
